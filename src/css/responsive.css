@@ -1,0 +1,35 @@
+@media (max-width: 425px){
+    body{
+        min-height: 100vh;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .main .image img{
+        margin: auto auto;
+        padding: 10px 25px;
+    }
+
+    .main .content{
+        text-align: center;
+        padding: 0 40px;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+    }    
+
+    .main .content h2{
+        font-size: 2.6rem;        
+    }
+
+    .main .content>a{
+        align-self: center;
+        margin-bottom: 4rem;
+    }
+
+    .main .content .social{
+        position: static;
+    }
+}

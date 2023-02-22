@@ -1,0 +1,103 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 62.5%;
+}
+
+body{
+    background: url(../images/desktop.svg) center no-repeat;
+    background-size: cover;
+    background-color: var(--Violet);
+    min-height: 100vh;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header img{
+    margin: auto;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    max-width: var(--max-width-general);
+    margin: auto auto;
+}
+
+.main .image{
+    display: flex;
+    align-items: center;
+}
+
+.main .image img{
+    padding: 25px;
+    width: 100%;
+}
+
+.main .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px 80px 50px;
+}
+
+.main .content h2{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+    max-width: var(--max-width-item);
+}
+
+.main .content p{
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 4rem;
+    max-width: 570px;
+}
+
+.main .content>a{
+    color: var(--Violet);
+    font-size: 1.7rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    padding: 12px 50px;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-self: flex-start;
+    transition: .25s ease;
+}
+
+.main .content>a:hover{
+    background-color: var(--Soft-Magenta);
+    color: #fff;
+}
+
+.main .content .social{
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+
+.main .content .social a{
+    color: #fff;
+    font-size: 3rem;
+    margin: 8px;
+    transition: .25s ease;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    padding: 8px;
+    display: inline-block;
+    width: 60px;
+}
+
+.main .content .social a:hover{
+    color: var(--Soft-Magenta);
+    border: 1px solid var(--Soft-Magenta);
+}
+
+.content .social a i{
+    margin-left: 7px;
+}
