@@ -5,31 +5,32 @@
 
     .main {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 420px 1fr;
     }
 
-    .main .image img{
+    .main .image-card img{
         margin: auto auto;
-        padding: 10px 25px;
+        padding: 0 25px;
     }
 
-    .main .content{
+    .main .text-card{
         text-align: center;
         padding: 0 40px;
         margin-top: 3rem;
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
     }    
 
-    .main .content h2{
-        font-size: 2.6rem;        
+    .main .text-card h2{
+        font-size: 2.5rem;        
     }
 
-    .main .content>a{
+    .main .text-card>a{
         align-self: center;
-        margin-bottom: 4rem;
+        margin-bottom: 6rem;
     }
 
-    .main .content .social{
+    .main .text-card .social{
         position: static;
+        justify-content: center;
     }
 }
