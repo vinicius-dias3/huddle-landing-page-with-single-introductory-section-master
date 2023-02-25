@@ -8,9 +8,17 @@ Este, é o desafio proposto pelo curso DevQuest. O único requisito é:
 
 - Use os conhecimentos que aprendeu nos módulos de HTML avançado e CSS avançado para resolvê-lo da melhor forma.
 
+- Aplicar a responsividade para desktop (1140px) e mobile (425px)
+
+### Responsividade
+
+Versão desktop:
+![versão desktop](./src/design/formato-desktop.png)
+![versão mobile](./src/design/formato-mobile.png)
+
 
 ### Dificuldades
 
-- Não Consegui deixar a imagem de background ficar idêntica a foto do design.
+- Imagem de background centralizada.
 
-- Os ícones das redes sociais também não ficaram idênticos e a forma como foi incluído na base da tela, não senti que foi a forma mais correta.
+- Ícones das redes sociais no canto da base da tela
