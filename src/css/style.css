@@ -7,29 +7,23 @@ html{
 body{
     background: url(../images/bg-desktop.svg) center no-repeat;
     background-size: cover;
-    background-color: var(--Violet);
+    background-color: var(--cor-principal);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
     padding: 20px;
 }
 
-.header img{
-    margin: auto;
-}
-
 .main{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px;
     position: relative;
     max-width: var(--max-width-general);
     margin: auto auto;
-}
-
-.main .image-card{
-    display: flex;
-    align-items: center;
 }
 
 .main .image-card img{
@@ -41,7 +35,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 100px 80px 50px;
+    padding: 0 100px 40px 50px;
 }
 
 .main .text-card h2{
@@ -59,7 +53,7 @@ body{
 }
 
 .main .text-card>a{
-    color: var(--Violet);
+    color: var(--cor-principal);
     font-size: 1.7rem;
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
@@ -71,20 +65,24 @@ body{
 }
 
 .main .text-card>a:hover{
-    background-color: var(--Soft-Magenta);
+    background-color: var(--cor-do-hover);
     color: #fff;
 }
 
-.main .text-card .social{
-    position: absolute;
-    bottom: 0;
-    right: 60px;
+.social{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.social ul{
     display: flex;
+    flex-direction: row-reverse;
+    margin-right: 3rem;
 }
 
-.main .text-card .social a{
+.social a{
     color: #fff;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     margin: 8px;
     transition: .25s ease;
     border: 1px solid #fff;
@@ -96,7 +94,7 @@ body{
     align-items: center;
 }
 
-.main .text-card .social a:hover{
-    color: var(--Soft-Magenta);
-    border: 1px solid var(--Soft-Magenta);
+.social a:hover{
+    color: var(--cor-do-hover);
+    border: 1px solid var(--cor-do-hover);
 }

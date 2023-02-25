@@ -1,6 +1,6 @@
 :root{
-    --Violet: hsl(257, 40%, 49%);
-    --Soft-Magenta: hsl(300, 69%, 71%);
-    --max-width-general: 192rem;
+    --cor-principal: hsl(257, 40%, 49%);
+    --cor-do-hover: hsl(300, 69%, 71%);
+    --max-width-general: 144rem;
     --max-width-item: 60rem;
 }

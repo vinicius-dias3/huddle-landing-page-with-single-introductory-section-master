@@ -5,19 +5,19 @@
 
     .main {
         grid-template-columns: 1fr;
-        grid-template-rows: 420px 1fr;
+        grid-template-rows: 360px 1fr;
     }
 
-    .main .image-card img{
-        margin: auto auto;
-        padding: 0 25px;
+    .main .image-card{
+        margin-top: 2rem;
+        padding: 0 15px;
     }
 
     .main .text-card{
         text-align: center;
         padding: 0 40px;
-        margin-top: 3rem;
-        margin-bottom: 5rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
     }    
 
     .main .text-card h2{
@@ -29,8 +29,8 @@
         margin-bottom: 6rem;
     }
 
-    .main .text-card .social{
-        position: static;
+    .social ul{
         justify-content: center;
+        margin-right: 0;
     }
 }
